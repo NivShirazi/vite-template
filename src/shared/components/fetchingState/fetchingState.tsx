@@ -3,7 +3,6 @@ import ErrorPage from "../../layout/errorPage/errorPage";
 import { UseQueryResult } from "react-query";
 
 interface FetchingStateProps<T> {
-  // TODO - fix any type and add generic type
   queryResult: UseQueryResult<T, Error>;
   children: React.ReactNode;
 }
